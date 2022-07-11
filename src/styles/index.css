@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  /* background: rgb(209, 127, 253); */
+  background: linear-gradient(
+    45deg,
+    rgb(127, 253, 226) 0%,
+    rgba(158, 76, 202, 1) 100%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
